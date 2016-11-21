@@ -1,0 +1,50 @@
+{
+    "src_folders": "tests",
+    "output_folder": "reports",
+    "custom_commands_path": "custom_commands",
+    "custom_assertions_path": "custom_assertions",
+    "globals_path": "globals.js",
+    "test_settings": {
+        "default": {
+            "launch_url": "http://localhost",
+            "username": "SAUCE_USERNAME",
+            "access_key": "SAUCE_ACCESS_KEY",
+            "screenshots": {
+                "enabled": false,
+                "path": ""
+            },
+            "desiredCapabilities": {
+                "browserName": "chrome",
+                "javascriptEnabled": true,
+                "acceptSslCerts": true
+            }
+        },
+        "chrome": {
+            "start_process": true,
+            "desiredCapabilities": {
+                "browserName": "chrome"
+            }
+        },
+        "ie": {
+            "start_process": true,
+            "desiredCapabilities": {
+                "browserName": "internet explorer"
+            }
+        },
+        "sauce_chrome": {
+            "selenium_port": 80,
+            "selenium_host": "ondemand.saucelabs.com",
+            "desiredCapabilities": {
+                "platform": "Windows 7"
+            }
+        },
+        "sauce_chrome_parallel": {
+            "selenium_port": 80,
+            "selenium_host": "ondemand.saucelabs.com",
+            "test_workers": true,
+            "desiredCapabilities": {
+                "platform": "Windows 7"
+            }
+        }
+    }
+}
