@@ -45,6 +45,15 @@
             "desiredCapabilities": {
                 "platform": "Windows 7"
             }
+        },
+        "sauce_ie11": {
+            "selenium_port": 80,
+            "selenium_host": "ondemand.saucelabs.com",
+            "desiredCapabilities": {
+                "platform": "Windows 7",
+                "browserName": "internet explorer",
+                "version": "11.0"
+            }
         }
     }
 }
