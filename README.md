@@ -14,14 +14,15 @@ npm scripting is used to simplify running the locally installed nightwatch modul
 5. You are ready to go
 
 ### Example commands
-- Running tests on your local machine
+Running tests on your local machine
   - __npm run nightwatch -- -t tests/ExampleTest.js -e chrome__
     - This will run the `ExampleTest.js`
     - Test will run using the Chrome browser
   - __npm run nightwatch -- -t tests/ExampleTest.js -e chrome,ie11__
     - This will run the `ExampleTest.js`
     - Test will run using the Chrome browser and the IE 11 browser, the two browsers will run in parallel
-- Running tests in SauceLabs
+
+Running tests in SauceLabs
   - __npm run nightwatch -- -t tests/ExampleTest.js -e sauce_chrome__
     - This will run the `ExampleTest.js`
     - Test will run using the Chrome browser
