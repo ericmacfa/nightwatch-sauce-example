@@ -14,11 +14,11 @@
     "lint": "node node_modules/jshint/bin/jshint tests custom_assertions custom_commands & exit 0"
   },
   "devDependencies": {
-    "chromedriver": "^2.24.1",
-    "iedriver": "^2.53.1",
-    "jshint": "^2.9.3",
-    "nightwatch": "^0.9.8",
-    "selenium-server": "^2.53.1"
+    "chromedriver": "^2.25.1",
+    "iedriver": "^3.0.0",
+    "jshint": "^2.9.4",
+    "nightwatch": "^0.9.9",
+    "selenium-server": "^3.0.1"
   },
   "jshintConfig": {
     "esversion": 6,
